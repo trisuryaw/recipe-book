@@ -18,17 +18,17 @@ export const Navbar = () => {
     {
       title: "Daftar Resep Makanan",
       href: "/book-recipes",
-      active: pathname === "/book-recipes",
+      active: pathname === "/book-recipe",
     },
     {
       title: "Resep Saya",
       href: "/my-recipes",
-      active: pathname === "/my-recipes",
+      active: pathname === "/my-recipe",
     },
     {
       title: "Resep Favorit",
       href: "/favorite-recipes",
-      active: pathname === "/favorite-recipes",
+      active: pathname === "/favorite-recipe",
     },
   ]
 
